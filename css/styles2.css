@@ -1,0 +1,360 @@
+﻿#noResults
+{
+    display: none;
+    margin-top: 20px;
+}
+
+#noResultsText
+{
+    color: red;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a 
+{
+   color: inherit; 
+} 
+
+#header
+{
+    overflow:   hidden;
+    width: 100%;
+}
+
+#logo
+{
+    margin: auto;
+}
+
+#siteName
+{
+    font-size: 52px;
+    letter-spacing: -4px;
+    vertical-align: bottom;
+}
+
+.siteInfo
+{
+    color: gray;
+    font-size: 14px;
+    vertical-align: top;
+    text-align: center;
+}
+
+h1
+{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 550%;
+    text-align: center;
+}
+
+#searchField
+{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;  
+    text-align: left;  
+}
+
+#searchFieldDiv
+{
+    margin: auto;
+    width: 50%;
+}
+
+#search
+{
+    margin-top: 5px;
+}
+
+/*SEARCH BOX*/
+.round 
+{
+    width: 100%;
+    border-radius: 15px;
+    border: 2px red solid;
+    border-color: gray;
+    padding: 5px 5px 5px 25px;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.site
+{
+    border-radius: 15px;
+    padding: 20px 20px 5px 20px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 50%;
+}
+
+#tags
+{
+    padding: 10px 15px 15px 0px;
+    font-size: 85%;
+}
+
+textarea:focus, input:focus
+{
+    outline: none;
+}
+
+/*SITENAMES*/
+.siteName
+{
+    float: right;
+    color: white;
+}
+
+#google p
+{
+    color: #757575;
+}
+
+#googleSiteName
+{
+    color: #4885ed;
+}
+
+.google2Letter,
+.google6Letter
+{
+    color: #db3236;
+}
+
+.google3Letter
+{
+    color: #f4c20d;
+}
+
+.google1Letter
+.google4Letter
+{
+    color: #4885ed;
+}
+
+.google5Letter
+{
+    color: #3cba54;
+}
+
+#NationalIdSiteName,
+#nationalId .siteDescription p 
+{
+    color: #fedf00;
+}
+
+#browserstackSiteName
+{
+    color: white;
+}
+
+#yelpSiteName
+{
+    font-size: 40px;
+    text-shadow: 1px 1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px -1px 0 #FFF,
+    0px 1px 0 #FFF,
+    0px -1px 0 #FFF,
+    -1px 0px 0 #FFF,
+    1px 0px 0 #FFF,
+    3px 3px 0 #FFF,
+    -3px 3px 0 #FFF,
+    3px -3px 0 #FFF,
+    -3px -3px 0 #FFF,
+    0px 3px 0 #FFF,
+    0px -3px 0 #FFF,
+    -3px 0px 0 #FFF,
+    3px 0px 0 #FFF,
+    1px 3px 0 #FFF,
+    -1px 3px 0 #FFF,
+    1px -3px 0 #FFF,
+    -1px -3px 0 #FFF,
+    3px 1px 0 #FFF,
+    -3px 1px 0 #FFF,
+    3px -1px 0 #FFF,
+    -3px -1px 0 #FFF;
+}
+
+#paypalSiteName
+{
+    font-family: Verdana;
+    font-weight: bold;
+    font-style: italic;
+    color: #00457C;
+}
+
+#pal
+{
+    color: #0079C1;
+}
+
+#paypal .siteDescription p,
+#paypal .siteLogo p
+{
+    color: #00457C;
+}
+
+#amazonSellerSiteName
+{
+    font-family: 'Kadwa', serif;
+    font-weight: bold;
+}
+
+#internetHealthSiteName
+{
+    font-size: 28px;
+    color: white;
+}
+
+#downDetectorSiteName
+{
+    color: #797b7e;
+    font-weight: bold;
+}
+
+#detector,#amazonSeller .siteDescription p
+{
+    color: black;
+}
+
+#downDetector .siteDescription p,
+#downDetector .siteLogo p
+{
+    color: black;
+}
+
+#slack .siteDescription p
+{
+    color: black;
+}
+
+#slackSiteName
+{
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#amazonSeller,
+#downDetector
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+#seller
+{
+    color: #FF9900;
+}
+
+#F,
+#T,
+#B
+{
+    font-size: 30px;
+}
+
+.siteName2
+{
+    color: #f16d32;
+}
+
+@font-face
+{
+    font-family: excelate;
+    src: url('../fonts/excelate.ttf');
+}
+
+#DHLSiteName
+{
+    font-family: excelate;
+    color: #ab0000;
+}
+
+/*SITE LOGO,DESC,TAGS*/
+.siteLogo{
+    float: left;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.siteDescription{
+    text-align: right;
+    word-wrap: break-word;
+}
+
+.tags
+{
+    font-style: italic;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+#dhl .siteDescription p,
+#dhl .siteLogo p
+{
+    color: #ab0000;
+}
+
+/*BACKGROUND COLORS FOR SITES*/
+#google
+{
+    background-color: #fefcfc;
+}
+
+#nationalId
+{
+    background-color: #009b3a;
+}
+
+#speedcurve
+{
+    background-color: #282828;
+}
+
+#browserstack
+{
+    background-color: orange;
+}
+
+#slack
+{
+    background-color: #e2e2e2;
+}
+
+#yelp
+{
+    background-color: #d32323;
+}
+
+#paypal
+{
+    background-color: #E1E7EB;
+}
+
+#dhl
+{
+    background-image: linear-gradient(to bottom, #ffe84f 0%, #ffcc00 100%)
+}
+
+#internetHealth
+{
+    background-color: #4A4A4A;
+}
+
+
+
+
+

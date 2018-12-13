@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>d@sh</title>
+    <link href="https://fonts.googleapis.com/css?family=Kadwa:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="css/styles2.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+        <div id="header">
+            <div id="logo">
+                <h1 id="siteName">d@sh</h1>
+            </div>
+            <div id="howIWork">
+                <p class="siteInfo" title="Simply type what you are looking for. If I find an exact match I will dash you straight to the site! You can also click on any site panel to go there.">Hover To See How I Work</p>
+            </div>
+            <div id="search">
+                <div id="searchFieldDiv">
+                    <input type="text" class="round" id="searchField" onfocus="clearText()" onkeyup="filter()" placeholder="Type what you are looking for..." tabindex="0"/>
+                </div>
+            </div>
+        </div>
+
+        <div onclick="goToPaypal()" id="paypal" class="site" url="https://www.paypal.com/signin?country.x=US&locale.x=en_US" tabindex="0">
+            <div class="siteLogo">
+                <h2 id="paypalSiteName" class="sitename">Pay<span id="pal">Pal</span></h2>
+            </div>
+            <div class="siteDescription">
+                <p>Manage your or your business' Paypal account.</p>
+                <p class="tags">#CCT</p>
+            </div>
+        </div>
+
+        <div onclick="goToGoogle()" id="google" class="site" url="https://www.google.com" tabindex="0">
+                <div class="siteLogo">
+                    <h2 id="googleSiteName" class="sitename"><span class="google1Letter">G</span><span class="google2Letter">o</span><span class="google3Letter">o</span><span class="google4Letter">g</span><span class="google5Letter">l</span><span class="google6Letter">e</span>
+                </div>
+                <div class="siteDescription">
+                    <p>Search engine so you can find what you're looking for.</p>
+                    <p class="tags">#search</p>
+                </div>
+        </div>
+
+        <div onclick="goToBrowserstack()" id="browserstack" class="site" url="https://www.browserstack.com/" tabindex="0">
+            <div class="siteLogo">
+                <h2 id="browserstackSiteName" class="sitename">BrowserStack</h2>
+            </div>
+            <div class="siteDescription">
+                <p>Live, web-based browser testing.</p>
+                <p class="tags">#devices #OS #platforms #mobile</p>
+            </div>
+        </div>
+
+        <div onclick="goToSlack()" id="slack" class="site" href="https://slack.com" url="https://slack.com/" tabindex="0">
+            <div class="siteLogo">
+                <h2 id="slackSiteName" class="sitename">slack</h2>
+            </div>
+            <div class="siteDescription">
+                <p>Chat, direct message, call, and share with your team members.</p>
+                <p class="tags">#chat #collaboration #team #communication</p>
+            </div>
+        </div>
+
+        <div onclick="goToYelp()" id="yelp" class="site" url="https://biz.yelp.com/all_locations_reports/" tabindex="0">
+            <div class="siteLogo">
+                <h2 id="yelpSiteName" class="sitename">yelp</h2>
+            </div>
+            <div class="siteDescription">
+                <p>Manage your Yelp business page.</p>
+                <p class="tags">#franchise #retail #stores</p>
+            </div>
+        </div>
+
+        <div onclick="goToDHL()" id="dhl" class="site" url="http://webtrack.dhlglobalmail.com/" tabindex="0">
+            <div class="siteLogo">
+                <h2 id="DHLSiteName" class="sitename">DHL</h2>
+            </div>
+            <div class="siteDescription">
+                <p>Track DHL eCommerce shipments.</p>
+                <p class="tags">#CCT #shipping</p>
+            </div>
+        </div>
+
+        <div onclick="goToAmazonSeller()" id="amazonSeller" class="site" url="https://sellercentral.amazon.com/" tabindex="0">
+            <div class="siteLogo">
+                <h2 id="amazonSellerSiteName" class="sitename">amazon<span id="seller">seller</span></h2>
+            </div>
+            <div class="siteDescription">
+                <p>Manage your Amazon Seller account.</p>
+                <p class="tags">#CCT #amazonpay</p>
+            </div>
+        </div>
+
+        <div onclick="goToDownDetector()" id="downDetector" class="site" url="http://downdetector.com/status/aws-amazon-web-services/news/113099-problems-at-amazon-web-services-2" tabindex="0">
+            <div class="siteLogo">
+                <h2 id="downDetectorSiteName" class="sitename">down<span id="detector">detector</span></h2>
+            </div>
+            <div class="siteDescription">
+                <p>Real time overview of status information and outages for Amazon Web Services.</p>
+                <p class="tags">#AWS</p>
+            </div>
+        </div>
+
+        <div onclick="goToInternetHealth()" id="internetHealth" class="site" url="http://internetpulse.keynote.com/Main.aspx?Period=RH24">
+            <div class="siteLogo">
+                <h2 id="internetHealthSiteName" class="sitename">dynatrace/keynote</h2>
+            </div>
+            <div class="siteDescription">
+                <p>Internet Health Report</p>
+                <p class="tags">#pulse</p>
+            </div>
+        </div>
+
+        <div onclick="goToNationalID();" id="nationalId" class="site" url="https://www.geradordecpf.org/" tabindex="0">
+            <div class="siteLogo">
+                <h2 id="NationalIdSiteName" class="siteName">Brazilian NID Generator</h2>
+            </div>
+            <div class="siteDescription">
+                <p>This is a tool that generates Brazilian National IDs for use in testing.</p>
+                <p class="tags">#test #NID</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="noResults">
+        <p id="noResultsText">No results were found!</p>
+    </div>
+
+    <script src="scripts/page2.js" type="text/javascript"></script>
+
+</body>
+
+</html>
+
